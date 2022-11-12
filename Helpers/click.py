@@ -4,7 +4,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 #browser = webdriver.Chrome(executable_path='C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe')
-service = Service(executable_path=ChromeDriverManager().install())
+service = Service(executable_path=ChromeDriverManager().install())  
 
 browser = webdriver.Chrome(service=service)
 #print("Word:")
